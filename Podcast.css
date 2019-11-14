@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  background-color: #1C2833;
+  
+}
+
+
+.historia a{
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    position: static;
+}
+.historia{
+  text-align: center;
+}
+.historia a:hover{
+  background-color: #1C2833;
+  border-style: solid;c
+  border-color: black;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+pre{
+    text-align: center;  
+    color: gray;  
+    font-size: 15px;
+}
+
+.boxpodcast{
+  width:50%;
+  height: 100%;
+  background-color: black;
+  align-items:center;
+  justify-content:center;
+  display: flex;
+  
+}
+.box{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  height:400px;
+  width:100%;
+  
+}
+
+.bbo {
+  overflow: hidden;
+  background-color: #1A1821;
+}
+.bbo a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+  text-decoration:none;
+}
+.bbo a:hover {
+  background-color: #1A1821;
+  color: black;
+}
+.bbo .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .bbo a:not(:first-child) {display: none;}
+  .bbo.responsive {position: relative;}
+  .bbo.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+    
+  .bbo.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+  }
+  .bbo a.icon {cx
+    float: right;
+    display: block;
+  }
+  /*
+  .box{
+    width: 70%;
+  }
+  
+  /*.boxpodcast{
+      position: relative;
+      width: 100%;
+      left: 10px;
+      left: 0%;
+      background-color: none;
+      
+  }
+  */
+
+  //////////////////////////////////////////
+
+  
