@@ -1,46 +1,51 @@
 body {
-  margin: 0;
   background-color: #1C2833;
+}
+
+.bot a{
+  background-color: black;
+  color: white;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 20px;
+  position: static;
+}
+.bot {
+  text-align: center;
   
 }
-
-
-.historia a{
-    background-color: black;
-    color: white;
-    padding: 14px 25px;
-    text-decoration: none;
-    font-size: 20px;
-    position: static;
-}
-.historia{
-  text-align: center;
-}
-.historia a:hover{
+.bot a:hover{
   background-color: #1C2833;
-  border-style: solid;c
+  border-style: solid;
   border-color: black;
 }
 
 
-h1{
-    text-align: center;
-    font-size: 40px;
+h1.historia{
+  text-align: center;
+  font-size: 45px;
 }
-pre{
-    text-align: center;  
-    color: gray;  
-    font-size: 15px;
+.historia{
+  color: black;  
+  font-size: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.historia-p{
+  text-align: center;
+  max-width: 1200px;
 }
 
+
 .boxpodcast{
-  width:50%;
+  width:55%;
   height: 100%;
   background-color: black;
   align-items:center;
   justify-content:center;
   display: flex;
-  
+  border-radius: 20px 70px;
 }
 .box{
   display: flex;
@@ -48,7 +53,7 @@ pre{
   justify-content:center;
   height:400px;
   width:100%;
-  
+   
 }
 
 .bbo {
@@ -72,6 +77,49 @@ pre{
   display: none;
 }
 
+.periodico{
+  
+}
+
+/*-----------------EPISODIOS-----------------------------*/
+.home a {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  position: static;
+  float: right;
+} 
+/*---------------Boton----------------------*/     
+.home a:hover{
+  background-color:darkred;
+  color: black;
+}
+.eposodios{
+  width: 90%;
+  height: auto;
+  background-color: black;
+  border-radius: 20px 50px;
+  
+}
+.conteiner{
+  display: flex;
+  flex-wrap: wrap ;
+  justify-content: center;
+}
+.iframe-epi{
+  width: 40%;
+  min-width: 300px;
+  margin: auto;
+  border: black solid 10px;
+}
+iframe{
+  width:80%;
+}
+/*----------------------------------------------*/
+
 @media screen and (max-width: 600px) {
   .bbo a:not(:first-child) {display: none;}
   .bbo.responsive {position: relative;}
@@ -79,6 +127,7 @@ pre{
     position: absolute;
     right: 0;
     top: 0;
+  
   }
     
   .bbo.responsive a {
@@ -90,21 +139,4 @@ pre{
     float: right;
     display: block;
   }
-  /*
-  .box{
-    width: 70%;
-  }
-  
-  /*.boxpodcast{
-      position: relative;
-      width: 100%;
-      left: 10px;
-      left: 0%;
-      background-color: none;
-      
-  }
-  */
 
-  //////////////////////////////////////////
-
-  

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+body{
+   background-image: url(https://images.pexels.com/photos/2096622/pexels-photo-2096622.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260); 
+   background-repeat: no-repeat;
+   background-size:cover;
+   height:100%; 
+   wight:100%;
+   
+}
+
+/* ********Main Photo********/
+.mainPhoto{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.mainPhoto img{
+   border-radius: 50%;
+   Max-width: auto;
+   height: auto;
+}
+/******************************/
+.name{
+   text-align: center;
+   osition: absolute;
+   top: 55%;
+   left: 50%;
+   color: black;
+}
+/************ TEXT ******************/
+.cv{
+   display:flex;
+   justify-content:center;
+}
+.cv p {
+   color: black;
+   width: 50%;
+}
+/************* icons ***************/
+.iconsbox{
+  width:50%;
+  display:flex;
+  justify-content:center;
+  justify-content:space-around;
+   /************* Revisar eliminar ***************/
+   /*border: solid 5px red;
+   */
+}
+.icons{
+  display:flex;
+  justify-content:center;
+  width:100%;
+}
+
+
+/************  personal information ***********/
+.inf{
+/*   border: solid 10px red;*/
+   width:300px;
+   height:auto;
+   text-align:center;
+}
+.container-inf1{
+  display: flex;
+  justify-content: center;
+  height:auto;
+ flex-wrap: wrap ;
+}
+
+/************* responsive **********/
+@media only screen and (max-width: 500px) {
+  .header img {
+    width: 30%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+  .header img {
+    width: 40%;
+    }
+}
+    </style>
+</head>
+<body>
+
+   <div class=mainPhoto>
+
+     <img src="https://lh3.googleusercontent.com/yPBRVgtngy_YzRrGUsP8h33NygRPKa2SNvZQFxQRQbKBapAP2rvkNc7Xe_ihAeYUn7H-G49y45ES-hpGkLUOgPiFaxmreRD2uVgxLS05P1atvU-3GRDVdFKQjj7zmYlmlg3Qi0WzjGwbtfVr4-4tcy4r-kJks1irNBZ9APK4SGzE7nefTF48eteTYXzAC6iZHbNlTkPj45RHmUMm-hwZac3PCRNoJOM0MEqgsuG23bsswmlJ5mjqp2xpy3Tom-Py48eV5DZJ6FbpS9MjHcOdfQT0Fs5J-BbAeFuNT9avgrULLrSVHBPEqhESnlp6oTiU5e3aPc10H4nDClJb3HHJEHV_pj9-jZZRaO35ValRKxUY9vI9RRgO1Zhhm9Oih7S3SgDINTuuwUuH8ME76LayYJ23N4UMrN9-caK1NRceCNErgbPz85U7RzHz1Yj5KNZ9oDD1OrDM4wCh4qksJ8SukU6muUgOkHWLUALdlf1Z6eQC5lK_wNcnQ-KLxipYHc9GcXIPUln9A4-ahJ34A6ncHVF6SaSmdyEn6yHXMtN2gprAdhULSXPMXHD_PR2l7SqrQ8EexUKGro661fZH0lE0dnO_6ludiFca1F4naKv2aDC5uKQgbbLdp5WLNZzAqbU2FypR9IW3PTm-8o-r3HiBBjrzqBy9ZczPfwC3yCe0F_vHWs43BOpr_L4=s937-no" alt="Main      photo" width="300" height="300">
+            </div>
+            <div class="name">
+               <h1 style="font-size:6vw;">Santiago Bejarano Pachon</h1>
+            </div>
+            <div Class= "cv">
+               <p style="font-size:2vw;">Modern language expert with proficiency in German, English,
+            and Spanish (as mother language), as well as adaptability to
+            life-long learning. I proved to be an effective team worker and
+            have a practical work behaviour, experienced by training and
+            supporting people for customer service. Good interpersonal
+            relations.</p>
+            </div>
+            
+            <div class="container-inf1">
+               <div class="inf">
+                  <h1>Language skills</h1>
+                  <p>German:
+            Volkshochschule, Munich,
+            Germany.
+            English: University EAN,
+            Bogotá, Colombia.</p>
+                </div> 
+               
+               <div class=inf>
+                  <h1>Computer skills</h1>
+                  <img src="https://www.pngfind.com/pngs/m/342-3426091_adobe-animate-html5-banners-adobe-animate-html5-banners.png" alt="" width="300" height="300">
+               </div>
+            </div>
+            <br>
+            <!---created a new div --->
+            <div class="icons">
+               <div class= "iconsbox">
+                  <i class="far fa-envelope fa-2x"></i>
+                  <i class="fab fa-facebook fa-2x"></i>
+                  <i class="fab fa-instagram fa-2x" ></i>
+                  <i class="fab fa-github fa-2x"></i>
+              </div>
+            </div>
+            
+            <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+       
+   </body>
+</html>
