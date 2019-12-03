@@ -10,62 +10,64 @@
 </head>
 <body>
 
-<div class="bbo" id="myBbo" >
-    <a href=""></a>
-  <a href="Episodios.html">Episodios</a>
-  <a href="historia.html">Historia</a>
-  <a href="javascript:void(0);" class="icon" onclick="funct1()">
-    <i class="fa fa-bars"></i>
-  </a>
+  <header>
+    <input type="checkbox" id="btn-menu">
+      <label for="btn-menu">
+        <i class="fas fa-bars fa-2x"></i>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      </label>
+    <nav class="menu">
+      <ul>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="Podcast.html">Podcast</a></li>
+        <li><a href="">Entrevista</a></li>
+      </ul> 
+    </nav>
+  </header>
+
+<div id="main">
+  <article>
+    <h1>FAUSTO</h1>
+    <div class="historia">
+      <p style="font-size:2vw;" class="historia-p">
+        En diciembre de 1991, una familia fue asesinada misteriosamente en el municipio de Ecatepec, 
+        Estado de México. Con un móvil incierto y circunstancias inusuales, este caso de tres décadas 
+        atrás llamó la atención de la prensa hacia la localidad, que pronto sería notoria por sus altos
+        índices de delincuencia y homicidios seriales. Ahora, el mundo puede escuchar cómo fue que el 
+        caso finalmentese resolvió en Fausto, el primer podcast original de Spotify sobre crímenes 
+        reales para México y América Latina.
+     </p>
+    </div>
+
+    <div class="bot">
+      <a href="historia.html">Continuar...</a>
+    </div>
+       
+    <div class="box">
+      <div class="boxpodcast">
+        <iframe src="https://open.spotify.com/embed-podcast/episode/5kCEd1maRUSXanlyRYKMbw" 
+        width="250px" height="232px" allowtransparency="true" allow="encrypted-media")></iframe>
+       <div class="css-3ftzg0 e70pa3m0"></div>
+    </div>
+
+    <!-- <div class="entrev">
+      <h2>¿Cómo te preparaste para conectar con una historia tan cruda y visceral?</h2>
+    </div> -->
+
+    
+  </article>
+  <nav>.....</nav>
+  <aside>......</aside>
 </div>
+<footer>
+  <div class="spoty-icon">
+    <div class="icon">
+     <a href="https://open.spotify.com/show/5pMNIoy0SoxMBiWZ1qtk4h"><i class="fab fa-spotify fa-3x">
 
-<h1>FAUSTO</h1>
-
-
-<div class="historia">
-  <p style="font-size:2vw;" class="historia-p">
-    En diciembre de 1991, una familia fue asesinada misteriosamente en el municipio de Ecatepec, 
-    Estado de México. Con un móvil incierto y circunstancias inusuales, este caso de tres décadas 
-    atrás llamó la atención de la prensa hacia la localidad, que pronto sería notoria por sus altos
-    índices de delincuencia y homicidios seriales. Ahora, el mundo puede escuchar cómo fue que el 
-    caso finalmentese resolvió en Fausto, el primer podcast original de Spotify sobre crímenes 
-    reales para México y América Latina.
-  </p>
-</div>
-
-<br>
-
-  <div class="bot">
-        <a href="historia.html">Continuar...</a>
+     </i></a>
+    </div>
   </div>
-
-<br>
-
-<div class="box">
-  
-  <div class="boxpodcast">
-    <iframe src="https://open.spotify.com/embed-podcast/episode/5kCEd1maRUSXanlyRYKMbw" 
-    width="250" height="232" frameborder="" allowtransparency="true" allow="encrypted-media"></iframe>
-    <div class="css-3ftzg0 e70pa3m0"></div>
-</div>
-
-<br>
-
-<!--arreglar imagen -->
-<!-- imagen png,  -->
-
- 
-<script>
-function funct1() {
-  var x = document.getElementById("myBbo");
-  if (x.className === "bbo") {
-    x.className += " responsive";
-  } else {
-    x.className = "bbo";
-  }
-}
-
-</script>
+</footer>
 
 </body>
 </html>
